@@ -1,0 +1,17 @@
+{
+	"name": "N-Gear Básico",
+	"version": "1.0.0",
+	"description": "A bot based on the N-Gear machine that Nepgear has. Its a basic music bot thats in WIP.",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"discord.js" : "11.0.0",
+		"ytdl-core" : "github:fent/node-ytdl-core#master",
+		"node-opus" : "^0.2.1"
+	},
+	"author": "BDISTIN"
+	"license" : "MIT"
+}
